@@ -2,7 +2,7 @@
 # edit the ORSEEROOT and PHPEXECUTABLE to fit your needs !
 
 ORSEEROOT=/srv/www/htdocs/orsee
-PHPEXECUTABLE=/php
+PHPEXECUTABLE=/usr/bin/php
 SHELL=/bin/sh
 
 #format: mm hh day_of_month month_of_year day_of_week command
