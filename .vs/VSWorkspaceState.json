@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\admin",
     "\\config",
     "\\install"
   ],
+  "SelectedNode": "\\config\\system.php",
   "PreviewInSolutionExplorer": false
 }
