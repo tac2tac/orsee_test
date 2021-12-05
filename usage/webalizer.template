@@ -3,8 +3,8 @@ OutputDir       #output_dir#
 Incremental	yes
 ReportTitle    #report_title#
 HostName       #host_name#
-GroupURL       #public_area_url#* Public Area
-GroupURL       #admin_area_url#* Admin Area
+https://orsee-test.herokuapp.com/       #public_area_url#* Public Area
+https://orsee-test.herokuapp.com/admin/      #admin_area_url#* Admin Area
 HideReferrer   #include_url#*
 IncludeURL     #include_url#*
 IgnoreURL       *
