@@ -2,8 +2,8 @@
 # edit the ORSEEROOT and PHPEXECUTABLE to fit your needs !
 
 # ORSEEROOT=/srv/www/htdocs/orsee
-ORSEEROOT=/orsee
-PHPEXECUTABLE=/php 
+ORSEEROOT=/vendor/bin/orsee
+PHPEXECUTABLE=/heroku/heroku-buildpack-php
 SHELL=/bin/sh
 
 #format: mm hh day_of_month month_of_year day_of_week command
