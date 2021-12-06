@@ -5,7 +5,10 @@ error_reporting(E_ALL & ~E_NOTICE);
 // SERVER SETTINGS
 // Web server document root, e.g. /srv/www/htdocs
 // no trailing slash!
-$settings__root_to_server="/srv/www/htdocs";
+// $settings__root_to_server="/srv/www/htdocs";
+$settings__root_to_server="/Apache24";
+// C:/Users/kkeei/Desktop/Apache24
+
 
 // Experiment system root relative to server root, e.g. /orsee
 // begins always with "/" if in a subdirectory
@@ -14,15 +17,15 @@ $settings__root_directory="/orsee";
 
 // url to web server document root (IP or domain name)
 // without trailing slash and the http://!
-//$settings__server_url="www.orsee.org";
+//$settings__server_url="www.orsee.org"; // 127.0.0.1 WebサーバーのドキュメントルートディレクトリへのURLを入力します。
 $settings__server_url="127.0.0.1";
 
 // server protocol (either "http://" or "https://"
-$settings__server_protocol="https://";
+$settings__server_protocol="http://";
 
 // Double-check your entries above! The URL to your ORSEE installation will be:
 // settings__server_protocol + settings__server_url + settings__root_directory
-// "https://127.0.0.1/orsee"
+// "http://127.0.0.1/orsee"
 
 
 // DATABASE CONFIGURATION

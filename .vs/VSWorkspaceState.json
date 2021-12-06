@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\config",
-    "\\install"
+    "\\install",
+    "\\public",
+    "\\usage"
   ],
-  "SelectedNode": "\\config\\system.php",
+  "SelectedNode": "\\public\\index.php",
   "PreviewInSolutionExplorer": false
 }

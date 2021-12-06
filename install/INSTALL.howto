@@ -25,7 +25,7 @@ BASIC INSTALLATION
 4. Enter mysql and create the mysql database. (You will need the privileges to add a database.)
    % mysql
 
-   mysql> CREATE DATABASE orseedbname DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+   mysql> 
    mysql> GRANT ALL PRIVILEGES ON orseedbname.* TO orseedbusername@localhost IDENTIFIED BY 'orseeuserdbpassword';
    mysql> FLUSH PRIVILEGES;
    mysql> quit
@@ -46,7 +46,8 @@ BASIC INSTALLATION
 
 9. Make sure that the 'usage' directory is writable for the user under which the cronjob is running. The webalizer output will be saved there by the server.
 
-10. Browse to your ORSEE installation: 'https://127.0.0.1/orsee/admin'.
+10. Browse to your ORSEE installation: 'http://127.0.0.1/orsee/admin'. 
+http：// <your-server-url> / <your-orsee-directory> / admin
 
 11. Login with username 'orsee_install' and password 'install'.
 

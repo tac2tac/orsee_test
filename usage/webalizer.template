@@ -3,7 +3,7 @@ OutputDir       #output_dir#
 Incremental	yes
 ReportTitle    #report_title
 localhost      #host_name#
-https://127.0.0.1/orsee/       #public_area_url#* Public Area
+https://127.0.0.1/orsee/public       #public_area_url#* Public Area
 https://127.0.0.1/orsee/admin      #admin_area_url#* Admin Area
 HideReferrer   #include_url#*
 IncludeURL     #include_url#*
